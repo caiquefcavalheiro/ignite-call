@@ -7,6 +7,10 @@ export const Container = styled('div', {
   alignItems: 'center',
   gap: '$20',
   marginLeft: 'auto',
+
+  '@media(max-width:600px)': {
+    justifyContent: 'center',
+  },
 })
 
 export const Hero = styled('div', {
